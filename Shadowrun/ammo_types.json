@@ -1,0 +1,70 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "cyb_sr_fletch",
+    "name": "Fletchette",
+    "default": "cyb_sr_fletchette"
+  },
+  {
+	"type": "ammunition_type",
+	"id": "cyb_sr_light",
+	"name": "Light ammo",
+	"default": "cyb_sr_light_ammo"
+  },
+  {
+    "id": "cyb_sr_fletchette",
+    "type": "AMMO",
+    "name": { "str": "Fletchette" },
+    "description": "Caseless Fletchette Rounds designed for small pistols. Don't do much, but they're good in a pinch.",
+    "weight": "3 g",
+    "volume": "250 ml",
+    "price": 150,
+    "price_postapoc": 800,
+    "effects": [ "NO_ITEM_DAMAGE", "NEVER_MISFIRES" ],
+    "material": [ "steel" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 80,
+    "stack_size": 100,
+    "ammo_type": "cyb_sr_fletch",
+    "range": 13,
+    "damage": { "damage_type": "stab", "amount": 8 },
+    "dispersion": 10,
+    "recoil": 0
+  },
+  {
+    "id": "cyb_sr_light_ammo",
+    "type": "AMMO",
+    "name": { "str": "Light ammo", "str_pl": "Light ammo" },
+    "description": "Light ammunition designed for use in all sorts of small firearms",
+    "weight": "7 g",
+    "volume": "250 ml",
+    "price": 150,
+    "price_postapoc": 1000,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "brass", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 50,
+    "stack_size": 50,
+    "ammo_type": "cyb_sr_light",
+    "casing": "cyb_sr_light_casing",
+    "range": 14,
+    "damage": { "damage_type": "stab", "amount": 26 },
+    "dispersion": 60,
+    "recoil": 500,
+    "effects": [ "COOKOFF" ]
+  },
+  {
+    "id": "cyb_sr_light_casing",
+    "type": "GENERIC",
+	"description": "Casings from expended Light ammunition. Probably chipped by some Megacorp.",
+    "category": "spare_parts",
+    "name": { "str": "Light ammo casings" },
+    "stackable": true,
+    "material": "brass",
+    "symbol": "=",
+    "color": "yellow",
+    "damage_states": [ 0, 0 ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+	"type": "MOD_INFO",
+	"ident": "cyberpunk_stuff",
+	"name": "Cyberpunk & Shadowrun Items and Bionics",
+	"authors": [ "AshTheDerg" ],
+	"maintainers": [ "AshTheDerg" ],
+	"description": "Adds Items and Bionics from the Cyberpunk and Shadowrun TTRPGs. Mainly Shadowrun 6e, and Cyberpunk v3.",
+	"category": "content",
+	"dependencies": [ "dda" ]
+  }
+]
